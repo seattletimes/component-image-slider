@@ -1,0 +1,61 @@
+image-slider {
+
+  @width: 970px;
+  @df-off-black: rgb(35, 31, 32);
+@df-off-white: rgb(248, 248, 248);
+@df-footer-gray: rgb(239, 239, 239);
+@df-light-gray: rgb(224, 224, 224);
+@df-border-gray: rgb(192, 192, 192);
+@df-middle-gray: rgb(126, 131, 139);
+@df-dark-gray: rgb(66, 70, 72);
+@df-charcoal: rgb(34, 34, 34);
+
+
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+  // max-width: @width;
+  width: 100%;
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .first {
+    position: absolute;
+    top: 0; bottom: 0; left: 0;
+    width: 85%;
+    min-width: 25px;
+    max-width: 100%;
+    overflow: hidden;
+    // resize: horizontal;
+    border-right: 3px solid @df-light-gray;
+  }
+
+  .first:before {
+    content: '«';
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    right: 0; 
+    bottom: calc(50% - 5px);
+    width: 9px; 
+    height: 20px;
+    padding: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background: @df-light-gray;
+    // border: 1px
+    cursor: pointer;
+    -webkit-filter: drop-shadow(0 0 2px black);
+    filter: drop-shadow(0 0 2px black);
+  }
+
+  img {
+    user-select: none;
+    max-width: 100%;
+  }
+}

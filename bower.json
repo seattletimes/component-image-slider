@@ -1,0 +1,17 @@
+{
+  "name": "component-image-slider",
+  "version": "0.0.1",
+  "homepage": "https://github.com/seattletimes/component-image-slider",
+  "authors": [
+    "The Seattle Times"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/lib",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "",
+      "path": ""
+    },
+    "live": {
+      "bucket": "apps.seattletimes.com",
+      "path": "tags/image-slider"
+    }
+  }
+}
