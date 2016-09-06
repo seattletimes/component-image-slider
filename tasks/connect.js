@@ -14,7 +14,8 @@ module.exports = function(grunt) {
       dev: {
         options: {
           livereload: true,
-          base: "./build"
+          base: "./build",
+          hostname: "localhost"
         }
       }
     }
