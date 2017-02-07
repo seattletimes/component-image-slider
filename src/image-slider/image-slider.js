@@ -54,6 +54,10 @@ proto.createdCallback = function() {
   resize();
   window.addEventListener('resize', resize);
 
+  images.forEach(function(img) {
+    img.addEventListener("load", resize);
+  });
+
 };
 
 proto.attachedCallback = function() {};
