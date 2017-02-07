@@ -1,8 +1,8 @@
 {
   "name": "component-image-slider",
   "description": "",
-  "version": "0.0.2",
-  "author": "Audrey Carlsen",
+  "version": "0.0.3",
+  "author": "Audrey Carlsen, Thomas Wilburn",
   "repository": {
     "type": "git",
     "url": "https://github.com/seattletimes/component-image-slider.git"
